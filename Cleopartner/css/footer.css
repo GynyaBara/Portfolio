@@ -1,0 +1,50 @@
+footer {
+  height: 237px;
+
+  background: #1e1e1e;
+}
+.footer-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 44px;
+}
+.footer-block ul {
+  list-style: none;
+  display: flex;
+}
+.footer-block ul li a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18.1289px;
+  line-height: 129.19%;
+  color: #ffffff;
+}
+.footer-block ul li {
+  margin-right: 32px;
+}
+.footer-block-social,
+.footer-block-politicks {
+  display: flex;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  opacity: 0.4;
+  align-items: center;
+}
+.inst {
+  width: 21px;
+  height: 21px;
+}
+.telg {
+  width: 28px;
+  height: 28px;
+}
+.footer-block-social img,
+.footer-block-social p {
+  margin-right: 15px;
+}
+.footer-block-politicks p {
+  margin-left: 36px;
+}

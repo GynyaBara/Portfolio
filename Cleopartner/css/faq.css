@@ -1,0 +1,21 @@
+.h1 h1 {
+  font-size: 113.047px;
+  line-height: 136px;
+}
+header {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.contacts-title h2 {
+  color: #ffffff;
+  margin: 0;
+}
+.faqs h2 {
+  font-size: 45px;
+  line-height: 129.19%;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 130px;
+  margin-bottom: 37px;
+  filter: brightness(100%);
+}

@@ -1,0 +1,179 @@
+header {
+  background: rgba(0, 0, 0, 0.56);
+  position: relative;
+}
+
+.diliverywei {
+  position: absolute;
+  left: 150px;
+  top: 60%;
+  z-index: -1;
+}
+.benefits {
+  background-image: url(../jpg/car-RequirementsBg.png);
+  width: 100%;
+  height: 632px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.conteiner-black {
+  background-color: rgba(0, 0, 0, 0.56);
+}
+.benefits-blocks {
+  padding: 100px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.benefits-block-text {
+  width: 732px;
+  height: 437px;
+  background: rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+  padding: 44px 55px 0;
+  box-sizing: border-box;
+  border-radius: 42px;
+}
+.benefits-block-text h4 {
+  font-size: 26px;
+  line-height: 31px;
+  margin-bottom: 25px;
+}
+.benefits-block-text .title-size {
+  font-size: 45px;
+}
+.benefits-block-text p {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 31px;
+  margin-bottom: 34px;
+}
+.benefits-block-text ul li {
+  list-style: none;
+  position: relative;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  padding-left: 25px;
+  margin-bottom: 20px;
+}
+.benefits-block-text ul li::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  background: #00bf63;
+  top: 5px;
+  left: 0;
+  border-radius: 50%;
+}
+.benefits-block-img {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.benefits-block-img img {
+  z-index: 1000;
+}
+.benefits-block-img::before {
+  content: url("../jpg/Ellipse\ 310.svg");
+  position: absolute;
+  left: 35px;
+  top: 25px;
+  z-index: -1;
+  animation-name: deg;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes deg {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+button {
+  border: none;
+  background-color: transparent;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 157.4%;
+  padding: 13px 30px;
+  color: #ffffff;
+  margin-top: 35px;
+  margin-right: 25px;
+}
+button:hover {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 157.4%;
+  padding: 12px 29px;
+  text-align: center;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.4) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
+  color: #ffffff;
+
+  border: 1px solid #fff;
+}
+.benefits-block-img {
+  width: 500px;
+  height: 540px;
+  margin-top: -60px;
+}
+.benefits-couriers {
+  background-image: url(../jpg/benefForCourierBg.png);
+  height: 678px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.benefits-couriers h2 {
+  margin-top: 0;
+  padding-top: 66px;
+}
+.benefits-couriers-bloc {
+  margin: 25px auto;
+  width: 1023px;
+  height: 416px;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    rgba(0, 0, 0, 0.3);
+  border-radius: 42px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.benefits-couriers-bloc-gray,
+.benefits-couriers-bloc-wite {
+  display: flex;
+  justify-content: space-around;
+}
+.ikon-wite img {
+  background: #ffffff;
+  box-shadow: 0px 17px 17px rgba(43, 227, 160, 0.28);
+  border-radius: 12px;
+  padding: 14px;
+}
+.faqs h2 {
+  font-size: 45px;
+  line-height: 129.19%;
+  text-align: center;
+  color: #ffffff;
+
+  filter: brightness(100%);
+}
+.faqs h2 {
+  margin-top: 0;
+  padding: 130px 0 30px 0;
+}

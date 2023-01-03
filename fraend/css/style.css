@@ -1,0 +1,81 @@
+@import url(//db.onlinewebfonts.com/c/ca299f411a9611978dd6ad055a856c8f?family=Co+Headline+Corp);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Co Headline Corp";
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+form {
+  margin: 0 auto;
+  width: 320px;
+}
+span {
+  color: red;
+}
+input {
+  width: 100%;
+  padding: 18px 20px;
+  border: 1px solid #c4c4c4;
+  border-radius: 20px;
+}
+h1 {
+  text-align: center;
+  margin-top: 63px;
+}
+h3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 70px 0 16px 20px;
+}
+p {
+  font-size: 12px;
+  line-height: 12px;
+  color: #959494;
+  margin-top: 12px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+label {
+  margin-bottom: 6px;
+  margin-left: 20px;
+}
+button {
+  width: 100%;
+  background: #50de97;
+  border: none;
+  border-radius: 50px;
+  padding: 18px 0;
+  margin-top: 36px;
+  margin-bottom: 80px;
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+}
+.input-telegram {
+  position: relative;
+}
+.input-telegram input {
+  padding-left: 40px;
+}
+.input-telegram::after {
+  content: "";
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  top: 37px;
+  left: 0;
+  background-image: url(../img/@.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}

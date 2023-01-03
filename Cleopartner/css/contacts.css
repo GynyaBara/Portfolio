@@ -1,0 +1,36 @@
+.contackts {
+  background-image: url(../jpg/car-RequirementsBg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 319px;
+}
+.contackts h2 {
+  margin-top: 0;
+  font-size: 45px;
+  line-height: 54px;
+}
+.contacts-title,
+.contacts-phon {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-top: 44px;
+}
+.contacts-phon h4 {
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
+.contacts-title p,
+.contacts-social {
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+
+  opacity: 0.4;
+}
+.contacts-phon {
+  margin-top: 70px;
+}
